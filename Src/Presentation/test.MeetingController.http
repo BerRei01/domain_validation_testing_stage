@@ -1,0 +1,42 @@
+POST localhost:5291/Meeting/SetMeeting
+Content-Type: application/json
+
+{
+  "TakesPlaceWhen": "2050-04-01",
+  "AlreadyHappened": true,
+  "MaxAttendees": 3,
+  "AttendeesUserIds": [1,2,3,4]
+}
+
+###
+POST localhost:5291/Meeting/ErrorOrMeeting
+Content-Type: application/json
+
+{
+  "TakesPlaceWhen": "2050-04-01",
+  "AlreadyHappened": true,
+  "MaxAttendees": 3,
+  "AttendeesUserIds": [1,2,3,4]
+}
+
+###
+POST localhost:5291/Meeting/AttributeMeeting
+Content-Type: application/json
+
+{
+  "TakesPlaceWhen": "2050-04-01",
+  "AlreadyHappened": true,
+  "MaxAttendees": 3,
+  "AttendeesUserIds": [1,2,3,4]
+}
+
+###
+POST localhost:5291/Meeting/ValueMeeting
+Content-Type: application/json
+
+{
+  "TakesPlaceWhen": "2050-04-01",
+  "AlreadyHappened": true,
+  "MaxAttendees": 3,
+  "AttendeesUserIds": [1,2,3,4]
+}
